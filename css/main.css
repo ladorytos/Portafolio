@@ -1,3 +1,9 @@
+.collapse, .navbar-collapse, .navbar-ex1-collapse {
+  background-color: red; }
 
+header {
+  background-image: url("../../../img/gmail.png");
+  background-repeat: no-repeat;
+  background-position: center; }
 
 /*# sourceMappingURL=main.css.map */
