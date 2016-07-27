@@ -14,23 +14,37 @@
   height: 80px; }
 
 .banner {
-  background-image: url(../img/banner.png);
+  background-image: url(../img/banner1.jpg);
   background-repeat: no-repeat;
-  height: 600px; }
+  background-size: contain;
+  background-position: center;
+  height: 600px;
+  width: 100%;
+  margin-top: -21px; }
 
 .parrafo {
-  margin: 20px 0px 0px 30px; }
+  margin: 10px 20px; }
 
-ul li {
-  list-style-type: none;
-  display: inline-block;
-  margin: 20px;
-  border: 4px solid #3dfaff;
-  border-radius: 100%; }
-  ul li .megusta, ul li .megusta1 {
-    width: 60px;
-    height: 70px; }
-  ul li .megusta1 {
-    padding: 10px; }
+/*li{
+	list-style-type:none;
+	display: inline-block;
+	margin: 20px;
+	border: 4px solid #3dfaff;
+	border-radius: 100%;
+	
+		.megusta, .megusta1{
+		    width: 60px;
+    		height: 70px;
+    	}
+		 .megusta1{
+		 padding: 10px;
+    	}
+
+   	&:hover{
+   		border: 4px solid #0055FF;
+
+   	}
+}
+*/
 
 /*# sourceMappingURL=main.css.map */
