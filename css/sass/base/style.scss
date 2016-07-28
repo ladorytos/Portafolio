@@ -1,3 +1,6 @@
+*{
+	font-family: georgia;
+}
 .container-fluid {
   margin-left: -15px;
   margin-right: -15px;
@@ -16,42 +19,71 @@
 	width: 200px;
 	height: 80px;
 }
+.bnnr{
+	background-color:#349141;
+	margin-top: -20px;
+}
 .banner{
-	background-image: url(../img/imagenbaner.jpg);
+	background-image: url(../img/imgbanner.jpg);
 	background-repeat: no-repeat;
 	background-size: contain;
 	background-position: center;
+	background-attachment: fixed;
 	height: 600px;
 	width: 100%;
-	margin-top: -21px;
-
+		.presentacion{
+			color: #f2f2f2;
+			line-height: 60px;
+			margin-top: 140px;
+	    margin-left: 70px;	    
+			text-shadow: 3px -2px 0px #424242;
+	    h1{
+	    	font-size: 44px;
+	    }
+			p{
+				margin-top: 60px;
+				font-size: 50px;
+				color: #3dfaff;
+				}
+		}
 }
-.parrafo{
-	margin: 10px 20px;
-	
-}
-.iconos{
-	margin-top: 30px;
-
-	li{
-		list-style-type:none;
-		display: inline-block;
-		margin: 20px;
-		border: 4px solid #3dfaff;
-		border-radius: 100%;
-			.megusta, .megusta1{
-		    width: 60px;
-    		height: 70px;
-    	}
-			.megusta1{
-		 		padding: 10px;
-    	}
-		   &:hover{
-   		border: 4px solid #0055FF;
-
-   	}
+#conoceme{
+	padding: 100px;
+	p{
+		margin-top: 30px;
+		font-size: 26px;
 	}
+	.parrafo{
+		font-size: 24px;
+	}
+	h4{
+		margin-top: 80px;
+	}
+	.iconos{
+	margin-top: 30px;
+		li{
+			list-style-type:none;
+			display: inline-block;
+			margin: 40px;
+			border: 4px solid #3dfaff;
+			border-radius: 100%;
+				.megusta, .megusta1{
+			    width: 60px;
+	    		height: 70px;
+	    	}
+				.megusta1{
+			 		padding: 10px;
+	    	}
+			   &:hover{
+	   		border: 4px solid #0055FF;
+
+	   	}
+		}
+	}
+
 }
+
+
 
 
 
