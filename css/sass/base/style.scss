@@ -7,13 +7,20 @@
  } 
 .navbar .navbar-collapse, .navbar-header{
 	background-color: #3dfaff;
-	ul{
+		ul{
 		margin-left: 20px;
 	}
 }
 .navbar-collapse{
 	font-size: 20px;
 	padding-top: 10px;
+}
+.navbar-default .navbar-nav>li>a {
+    color: 	#0055FF;
+    font-size: 22px;
+    &:hover{
+	   		color: 	#1fbb24;
+	   			}
 }
 .logo{
 	width: 200px;
@@ -59,34 +66,20 @@
 	h4{
 		margin-top: 80px;
 	}
-	.iconos{
-	margin-top: 30px;
-		li{
-			list-style-type:none;
-			display: inline-block;
-			margin: 30px 40px;
-			border: 4px solid #3dfaff;
-			border-radius: 100%;
-				.megusta, .megusta1{
-			    width: 80px;
-	    		height: 90px;
-	    	}
-				.megusta1{
-			 		padding: 10px;
-	    	}
-			   &:hover{
-	   		border: 4px solid #0055FF;
-	   			}
-		}
-	}
 }
 #conocimientos, #trabajos{
-	margin-left: 40px;
+	.esp{
+		margin-left: 40px;
+	margin-top: 20px;
+
+	}
+	
 	h1{
 		margin-bottom: 40px;
 		color:#0055FF; //revisar colores
 	}
 }
+
 footer{
 	h3{
 		color:#0055FF; //revisar colores	

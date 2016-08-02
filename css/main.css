@@ -14,6 +14,12 @@
   font-size: 20px;
   padding-top: 10px; }
 
+.navbar-default .navbar-nav > li > a {
+  color: #0055FF;
+  font-size: 22px; }
+  .navbar-default .navbar-nav > li > a:hover {
+    color: #1fbb24; }
+
 .logo {
   width: 200px;
   height: 80px; }
@@ -52,27 +58,13 @@
     font-size: 24px; }
   #conoceme h4 {
     margin-top: 80px; }
-  #conoceme .iconos {
-    margin-top: 30px; }
-    #conoceme .iconos li {
-      list-style-type: none;
-      display: inline-block;
-      margin: 30px 40px;
-      border: 4px solid #3dfaff;
-      border-radius: 100%; }
-      #conoceme .iconos li .megusta, #conoceme .iconos li .megusta1 {
-        width: 80px;
-        height: 90px; }
-      #conoceme .iconos li .megusta1 {
-        padding: 10px; }
-      #conoceme .iconos li:hover {
-        border: 4px solid #0055FF; }
 
-#conocimientos, #trabajos {
-  margin-left: 40px; }
-  #conocimientos h1, #trabajos h1 {
-    margin-bottom: 40px;
-    color: #0055FF; }
+#conocimientos .esp, #trabajos .esp {
+  margin-left: 40px;
+  margin-top: 20px; }
+#conocimientos h1, #trabajos h1 {
+  margin-bottom: 40px;
+  color: #0055FF; }
 
 footer h3 {
   color: #0055FF; }
