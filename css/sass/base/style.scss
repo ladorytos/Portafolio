@@ -1,25 +1,28 @@
 *{
-	font-family: georgia;
+	font-family: Helvetica, Arial;
 }
 .container-fluid {
   margin-left: -15px;
   margin-right: -15px;
  } 
 .navbar .navbar-collapse, .navbar-header{
-	background-color: #3dfaff;
+	background-color: $mora; 
 		ul{
 		margin-left: 20px;
 	}
+}
+.navbar-default {
+   border-color: $mora;
 }
 .navbar-collapse{
 	font-size: 20px;
 	padding-top: 10px;
 }
 .navbar-default .navbar-nav>li>a {
-    color: 	#0055FF;
+    color: 	$wht;
     font-size: 22px;
     &:hover{
-	   		color: 	#1fbb24;
+	   		color:whitesmoke;
 	   			}
 }
 .logo{
@@ -43,52 +46,129 @@
 			line-height: 60px;
 			margin-top: 140px;
 	    margin-left: 70px;	    
-			text-shadow: 3px -2px 0px #424242;
+			text-shadow: 3px -2px 0px $grs;
 	    h1{
 	    	font-size: 44px;
 	    }
 			p{
 				margin-top: 60px;
 				font-size: 50px;
-				color: #3dfaff;
+				color: $clps;
 				}
 		}
 }
 #conoceme{
-	padding: 100px;
+	padding: 100px 100px 50px;
 	p{
 		margin-top: 30px;
 		font-size: 26px;
 	}
 	.parrafo{
 		font-size: 24px;
+		margin-bottom: 50px;
 	}
-	h4{
-		margin-top: 80px;
+	.esp1{
+		margin-left: 50px;
+		h4{
+			margin-bottom: 20px;
+		}
+		.megusta{
+			width: 110px;
+			height: 110px;
+			padding: 5px;
+			border-radius: 50%;
+			border: 4px solid $mora;
+				&:hover{
+					border: 10px solid $mora;
+				}
+			}
+		}
 	}
-}
-#conocimientos, #trabajos{
-	.esp{
-		margin-left: 40px;
-	margin-top: 20px;
-
-	}
-	
+#habilidades, #trabajos{
+	margin: 60px;
 	h1{
-		margin-bottom: 40px;
-		color:#0055FF; //revisar colores
+		margin-bottom: 50px;
+		color:$mora;
+	}
+	.esp{
+		margin: 20px;
+	}
+	.esp2{
+		margin-bottom: 60px;
 	}
 }
-
 footer{
-	h3{
-		color:#0055FF; //revisar colores	
+	h1{
+		color:$mora;
+	}
+	p{
+		margin: 30px;
+		font-size: 20px;
 	}
 	.icons{
 		 width: 50px;
 	   height: 50px;
+	   margin: 30px;
 	}
 }
+/* Responsive }*/
 
+@media screen and (max-width : 667px) {
+  .container-fluid{
+    width: 100%;
+  }
+  .img{
+    width:100%;
+  }
+  .banner{
+  	 background-image: url(../img/imgbanner.jpg);
+  	 background-attachment: inherit;
+  	 background-position: 10px 35px;
+  	 background-size: 110% 100%;
+  	height: 300px;
+  	.presentacion{
+  		h1, p{
+  			font-size: 20px;
+  			margin-left: -80px;
+  		}
+  		p{
+  			margin-top: 0px;
+  		}
+  	}
+  }
+  .bnnr{
+	height: 100%;
+}
+  #conoceme{
+  	padding: 30px;
+  	p, .parrafo{
+  		font-size: 18px;
+  	}
+  	.esp1{
+  		visibility:hidden;
+  	}
+  }
+  #habilidades{
+  	margin-top: -400px;
+  }
+  #trabajos{
+  	.col-md-4{
+  		margin-top: 30px;
+  	}
+  }
+}
 
+@media (min-width: 668px) and  (max-width: 1024px) {
+  .container-fluid{
+    width: 100%;
+  }
+  .img{
+    width:100%;
+  }
+}
 
+@media (min-width: 1025px) and (max-width: 1600px){
+  .container-fluid{
+    width: 100%;
+  }
+}

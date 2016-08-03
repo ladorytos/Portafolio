@@ -11,7 +11,7 @@
   box-sizing: border-box;
 }
 .ih-item a {
-  color: #333;
+  color: #2c1852;
 }
 .ih-item a:hover {
   text-decoration: none;
@@ -39,7 +39,7 @@
   width: 100%;
   height: 100%;
   border-radius: 50%;
-  box-shadow: inset 0 0 0 16px rgba(255, 255, 255, 0.6), 0 1px 2px rgba(0, 0, 0, 0.3);
+  box-shadow: inset 0 0 0 16px white, 0 1px 2px white;
   -webkit-transition: all 0.35s ease-in-out;
   -moz-transition: all 0.35s ease-in-out;
   transition: all 0.35s ease-in-out;
@@ -98,7 +98,7 @@
   display: none;
 }
 .ih-item.circle.effect1.colored .info {
-  background: #1a4a72;
+  background: #2c1852;
   background: rgba(26, 74, 114, 0.6);
 }
 .ih-item.circle.effect1 .info {
@@ -106,7 +106,7 @@
   bottom: 0;
   left: 10px;
   right: 0;
-  background: #333333;
+  background: #2c1852;
   background: rgba(0, 0, 0, 0.6);
   opacity: 0;
   -webkit-transition: all 0.8s ease-in-out;
@@ -114,7 +114,7 @@
   transition: all 0.8s ease-in-out;
 }
 .ih-item.circle.effect1 .info h3 {
-  color: #fff;
+  color: white;
   text-transform: uppercase;
   position: relative;
   letter-spacing: 2px;
@@ -122,7 +122,7 @@
   margin: 0 30px;
   padding: 55px 0 0 0;
   height: 110px;
-  text-shadow: 0 0 1px white, 0 1px 2px rgba(0, 0, 0, 0.3);
+  text-shadow: 0 0 1px white, 0 1px 2px white;
 }
 .ih-item.circle.effect1 .info p {
   color: #bbb;
@@ -3748,7 +3748,7 @@
   overflow: hidden;
 }
 .ih-item.square.effect12.colored .info {
-  background: #1a4a72;
+  background: #2c1852;
   background: rgba(26, 74, 114, 0.6);
 }
 .ih-item.square.effect12.colored .info h3 {
@@ -3760,7 +3760,7 @@
   transition: all 0.35s ease-in;
 }
 .ih-item.square.effect12 .info {
-  background: #333333;
+  background: #2c1852;
   background: rgba(0, 0, 0, 0.6);
   visibility: hidden;
   opacity: 0;
@@ -3774,7 +3774,7 @@
   text-align: center;
   font-size: 17px;
   padding: 10px;
-  background: #111111;
+  background:#2c1852;
   margin: 30px 0 0 0;
   -webkit-transition: all 0.35s ease-in;
   -moz-transition: all 0.35s ease-in;
@@ -3782,9 +3782,9 @@
 }
 .ih-item.square.effect12 .info p {
   font-style: italic;
-  font-size: 12px;
+  font-size: 16px;
   position: relative;
-  color: #bbb;
+  color: white;
   padding: 20px 20px 20px;
   text-align: center;
   -webkit-transition: all 0.35s ease-in;
