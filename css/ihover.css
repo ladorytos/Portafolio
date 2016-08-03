@@ -57,8 +57,10 @@
   border-radius: 50%;
   -webkit-backface-visibility: hidden;
   backface-visibility: hidden;
-}
+  background: rgba(45,25,80,0.5);
+  
 
+}
 .ih-item.square {
   position: relative;
  
@@ -3749,7 +3751,7 @@
 }
 .ih-item.square.effect12.colored .info {
   background: #2c1852;
-  background: rgba(26, 74, 114, 0.6);
+    background: rgba(45,25,80,0.5);
 }
 .ih-item.square.effect12.colored .info h3 {
   background: rgba(12, 34, 52, 0.6);
@@ -3782,6 +3784,7 @@
 }
 .ih-item.square.effect12 .info p {
   font-style: italic;
+  text-transform: uppercase;
   font-size: 16px;
   position: relative;
   color: white;
