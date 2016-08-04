@@ -96,6 +96,9 @@
     #habilidades .habil .esp, #habilidades .habil:hover, #trabajos .habil .esp, #trabajos .habil:hover {
       margin-top: 2px; }
 
+#trabajos .col-md-4 {
+  margin-top: 20px; }
+
 footer {
   background-color: #2c1852;
   color: #ffffff; }
@@ -125,10 +128,10 @@ footer {
     .banner .presentacion h1 {
       font-size: 20px;
       text-align: left;
-      margin: -50px 5px 0px -50px; }
+      margin: -70px 5px 0px -60px; }
     .banner .presentacion p {
       font-size: 26px;
-      margin-left: -150px; }
+      margin-left: -180px; }
 
   .bnnr {
     height: 100%; }
@@ -141,10 +144,17 @@ footer {
     #conoceme .esp1 {
       visibility: hidden; }
 
+  #habilidades .col-md-2, #habilidades .col-xs-12 {
+    width: 100%; }
+  #habilidades .esp {
+    margin-left: -1px; }
   #habilidades h1 {
-    font-size: 30px; }
+    font-size: 30px;
+    margin-top: -15px 0px -15px 0px; }
   #habilidades h4 {
-    font-size: 20px; }
+    font-size: 18px;
+    color: #2c1852;
+    text-align: center; }
   #habilidades .habil {
     width: 130px;
     height: 120px;
@@ -152,20 +162,35 @@ footer {
     float: left;
     margin: 15px; }
 
+  #trabajos h1 {
+    font-size: 30px;
+    text-align: center;
+    margin-top: -20px 0px -20px 0px; }
+
+  #trabajos .col-md-4, #trabajos .col-xs-12 {
+    width: 100%; }
   #trabajos .col-md-4 {
-    width: 100%;
     margin-top: 10px; }
+  #trabajos .img1 {
+    width: 100%;
+    margin-bottom: 15px; }
   #trabajos .info p {
-    font-size: 12px; }
+    font-size: 10px;
+    margin-top: -5px; }
 
   footer h1, footer p {
     font-size: 20px; }
   footer .icons {
     width: 40px;
     height: 40px;
-    margin: 20px; } }
+    margin: 20px; }
+  footer .text-right {
+    font-size: 14px; } }
 @media (min-width: 668px) and (max-width: 1024px) {
   .container-fluid {
+    width: 100%; }
+
+  .col-md-2, .col-md-4, .col-xs-12 {
     width: 100%; }
 
   .img {
